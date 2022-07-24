@@ -1,3 +1,10 @@
+'''
+nao é uma kata do codewars mas achei essa desafio interessante e resolvi postar aqui tambem
+problema 1093 do site beecrowd 
+pode ser encontrado no link https://www.beecrowd.com.br/judge/pt/problems/view/1093
+'''
+
+
 import math
 
 while True:    
