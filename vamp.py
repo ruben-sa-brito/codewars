@@ -22,3 +22,4 @@ while True:
     else:
         p = at/6
         prob =100*  ((((1-p)/p)**r1)-1)  /  ((((1-p)/p)**(r1+r2))-1)
+        print('{:.1f}'.format(prob))
