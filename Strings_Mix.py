@@ -1,3 +1,8 @@
+'''
+desafio 'string mix' do codewars
+link para acessar esta kata: https://www.codewars.com/kata/5629db57620258aa9d000014
+'''
+
 def mix(s1, s2):
     listnum = ['0','1','2','3','4','5','6','7','8','9']
     for num in s1:
@@ -77,11 +82,3 @@ def mix(s1, s2):
             string_mesclada += testf + '/'
     string_mesclada = string_mesclada[:-1]   
     return string_mesclada     
-
-   
-    
-
-                    
-                
-s1, s2 ="Are they here", "yes, they are here"
-print(mix(s1,s2))
