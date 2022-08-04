@@ -1,4 +1,7 @@
+#https://www.codewars.com/kata/54d512e62a5e54c96200019e
+
 def prime_factors(n):
+
     prime = 2     
     prime2 = n
     list_fac = []
@@ -14,14 +17,16 @@ def prime_factors(n):
             prime +=1    
         if prime2 == 1:
             cont = 0
+
     prim = list(set(list_fac))
     prim.sort()
     factores = ''
+
     for i in prim:
         if list_fac.count(i)== 1:
             factores += f'({i})'
         else:
-            factores += f'({i}**{list_fac.count(i)})'    
+            factores += f'({i}**{list_fac.count(i)})'
+                
     return factores  
 
-print(prime_factors(7775460))
