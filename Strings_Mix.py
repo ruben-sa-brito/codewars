@@ -53,8 +53,7 @@ def mix(s1, s2):
                 c = b
                 cont2 = cont - 1
             if len(lista3) == cont:
-                cont = 0
-                
+                cont = 0  
                 lista4.append(c)
                 lista3.pop(cont2)
                 cont2 = 0
