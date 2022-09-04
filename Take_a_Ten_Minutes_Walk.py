@@ -14,7 +14,6 @@ um minuto para percorrer um quarteirão da cidade, então crie uma função
 que retornará true se a caminhada que o aplicativo lhe dá levar 
 exatamente dez minutos (você não quero chegar cedo ou tarde!) 
 e, é claro, o levará de volta ao seu ponto de partida. Devolva false caso contrário.
-
 '''
 def is_valid_walk(walk):
     
