@@ -9,8 +9,6 @@ sem fazer distinção entre letras maisculas e minusculas
 
 '''
 
-
-
 def duplicate_count(text):
 
     list1 = list(text.lower()) 
