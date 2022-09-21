@@ -1,3 +1,5 @@
+#https://www.codewars.com/kata/5848565e273af816fb000449
+
 def encrypt_this(text):
     words = []
     word = str()
@@ -5,15 +7,7 @@ def encrypt_this(text):
     if text == '':
         return ''
     
-    for l in text:
-        if l == ' ':
-            words.append(word)
-            word = ''
-            l=''
-        word += l
-        
-    else:
-        words.append(word)     
+    words = text.split()    
     
     for word in words:
         
