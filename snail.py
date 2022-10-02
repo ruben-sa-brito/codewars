@@ -51,12 +51,4 @@ def snail(snail_map):
                         y*=-1
         cont += 1              
     
-    return fn_list                 
-       
-        
-        
-                  
-                    
-                
-         
-    
+    return fn_list                   
