@@ -1,12 +1,10 @@
+#https://www.codewars.com/kata/52597aa56021e91c93000cb0
 def move_zeros(lst):
     
-    listF = lst.copy()
-    list0 = list()
     
     for a in lst:
         if a == 0:
-            listF.remove(0)
-            list0.append(a)   
-            
-    listF = listF + list0    
-    return listF       
+            lst.remove(0)
+            lst.append(0)   
+               
+    return lst      
