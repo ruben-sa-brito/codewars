@@ -1,30 +1,50 @@
 #https://www.codewars.com/kata/5a331ea7ee1aae8f24000175
 def triangle(row):
-    strc = str()
-    colors = ['B','G','R']
-    ctr = 1
-    while True:
-        if len(row) == 1:
-            return row
-        for a in row: 
-            
-            if ctr != 1:
-                if a == b:
-                    strc += a
-                else:    
-                    if ctr != 1:
-                        colors.remove(a)
-                        colors.remove(b)
-                        strc += colors[0]
-                        colors = ['B', 'G', 'R']
-            b = a            
-            
-            ctr = 0            
-        ctr = 1
-        row = strc
-        if len(strc) > 1:
-            strc = str()
+    listc = ['R','G','B']
+    
+        
+    
+    if len(row) == 1:
+        return row
+    if len(row) % 2 == 0:
+        if row[0]==row[-1]:
+            return row[0]
+        listc.remove(row[-1])
+        listc.remove(row[0])
+        return listc[0]
+    else:
+        
+        listi = list()
+        if row[0] == row[-2]:
+            listi.append(row[0])
         else:
-            return strc
+            listc.remove(row[-2])
+            listc.remove(row[0])
+            listi.append(listc[0])
+            listc = ['R','G','B']
+        
+        if row[1] == row[-1]:
+            listi.append(row[1])
+        else:
+            listc.remove(row[-1])
+            listc.remove(row[1])
+            listi.append(listc[0])
+            listc = ['R','G','B']
+            
+        if listi[0] == listi[1]:
+            return listi[0] 
+        else:
+            listc.remove(listi[0])
+            listc.remove(listi[1])
+            
+            return listc[0]
+            
+print(triangle('RBRGBRBG'))            
+                  
+            
+            
+                
+        
+        
 
      
