@@ -19,6 +19,3 @@ def ka_co_ka_de_ka_me(word):
                 new_word += l    
             
     return 'ka' + new_word
-
-
-print(ka_co_ka_de_ka_me('Abbaa'))
