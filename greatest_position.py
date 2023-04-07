@@ -8,7 +8,7 @@ def greatest_distance(arr):
             if num == num2:
                 
                 dst = abs(index1 - index2)
-                if dst > 0 and dst > distance:
+                if dst > distance:
                     distance = dst
             index2 += 1        
         index1 += 1            
