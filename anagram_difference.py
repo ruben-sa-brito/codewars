@@ -1,7 +1,5 @@
 #https://www.codewars.com/kata/5b1b27c8f60e99a467000041
 def anagram_difference(w1, w2):
-    w1 = [x for x in w1]
-    w2 = [x for x in w2]
     if len(w1) > len(w2): w1, w2 = w2, w1 
     removed = 0
     for l in set(w1):
