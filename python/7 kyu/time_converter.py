@@ -1,4 +1,4 @@
-
+#https://www.codewars.com/kata/56b8b0ae1d36bb86b2000eaa
 from datetime import datetime
 
 def convert(time):

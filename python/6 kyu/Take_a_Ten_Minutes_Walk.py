@@ -15,6 +15,7 @@ que retornará true se a caminhada que o aplicativo lhe dá levar
 exatamente dez minutos (você não quero chegar cedo ou tarde!) 
 e, é claro, o levará de volta ao seu ponto de partida. Devolva false caso contrário.
 '''
+#https://www.codewars.com/kata/54da539698b8a2ad76000228
 def is_valid_walk(walk):
     
     if len(walk) == 10:

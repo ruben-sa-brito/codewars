@@ -7,6 +7,8 @@ sem fazer distinção entre letras maisculas e minusculas
 "aabbcc223xe" - essa string deve tretornar 4
 "acdafxf55ABB" - essa string deve tretornar 4
 
+    url da kata: https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
+
 '''
 
 def duplicate_count(text):

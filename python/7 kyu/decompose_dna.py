@@ -1,3 +1,4 @@
+#https://www.codewars.com/kata/57507369b0b6d1b5a60001b3
 def decompose_single_strand(single_strand):
     
     
