@@ -1,3 +1,4 @@
+#https://www.codewars.com/kata/57fe5b7108d102fede00137a
 def instrumental(word):
     vowel_pairs = {'a':'á', 'o':'ó', 'u':'ú', 'e': 'é', 'i':'í', 'ö':'ő', 'ü':'ű' }
     front_vowel = ['e', 'é', 'i', 'í', 'ö', 'ő', 'ü', 'ű']
